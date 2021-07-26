@@ -1,0 +1,11 @@
+<form [formGroup]="reactiveForm">
+  <section class="image">
+    <!-- img -->
+  </section>
+  <section class="unserInput">
+    <input type="text" placeholder="Input PIN code" formControlName="userPIN" [(ngModel)]="pinNumber"/>
+  </section>
+  <section class="submit">
+    <button type="submit" (click)="onSubmit()">Validate</button>
+  </section>
+</form>

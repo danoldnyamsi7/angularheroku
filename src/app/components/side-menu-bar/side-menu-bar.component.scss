@@ -1,0 +1,45 @@
+section.side-menu-bar{
+  // border: 1px solid red;
+  box-sizing: border-box;
+  margin: .4em;
+
+  nav.menu{
+    text-align: center;
+    position: relative;
+    top: 6.2em;
+
+    ul{
+        padding: 0;
+        margin: 1em;
+
+      li{
+        list-style-type: none;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        padding: .5em;
+        text-align: center;
+        margin: -.4em auto auto auto;
+        text-transform: capitalize;
+        
+        font-weight: 400;
+
+        &:hover{
+          background-color: orange;
+          color: white;
+          transition: .5s;
+        }
+
+        a{
+          text-decoration: none;
+          color: black;
+          margin: .5em;
+          &:hover{
+            color: white;
+  
+          }
+        }
+      }
+    }
+  }
+}
